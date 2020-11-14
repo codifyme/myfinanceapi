@@ -18,6 +18,7 @@
   .pricing__container-card:nth-child(2) {
     transform: scale(1.05);
     background: #242424;
+    margin:0 24px;
   }
   
   .pricing__container-card:hover {
@@ -74,6 +75,10 @@
   .pricing__container-features {
     margin: 16px 0 32px;
     list-style: none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
   }
   
   .pricing__container-features li {
