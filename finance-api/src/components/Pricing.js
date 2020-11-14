@@ -20,11 +20,12 @@ function Pricing() {
                   <FaFire />
                 </div>
                 <h3>INDIVIDUAL</h3>
-                <h4>$9.99</h4>
-                <p>per month</p>
+                <h4>$9.99</h4><p>per month</p>
                 <ul className='pricing__container-features'>
+                  <li>For Personal Project</li>
                   <li>5 API Calls </li>
                   <li>Personal use</li>
+                  <li>Full Access to Core Data</li>
                   <li>Email & Chat support</li>
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='primary'>
@@ -38,12 +39,10 @@ function Pricing() {
                   <BsXDiamondFill />
                 </div>
                 <h3>TEAMS</h3>
-                <h4>$39.99</h4>
-                <p>per month</p>
+                <h4>$39.99</h4><p>per month</p>
                 <ul className='pricing__container-features'>
                   <li>All features included with Individual plan</li>
                   <li>22 API Calls</li>
-                  <li>SMS Triggers</li>
                   <li>Up to 8 Team Members</li>
                   <li>Personal & Commercial use</li>
                 </ul>
@@ -58,13 +57,12 @@ function Pricing() {
                   <GiCrystalize />
                 </div>
                 <h3>ENTERPRISE</h3>
-                <h4>$480</h4>
-                <p>per month</p>
+                <h4>$480</h4><p>per month</p>
                 <ul className='pricing__container-features'>
                   <li>All features included with Teams plan</li>
                   <li>Up to 8000 API Calls</li>
                   <li>Unlimited Team Members</li>
-                  <li>Customer Support</li>
+                  <li>Priority Customer Support</li>
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='primary'>
                   Choose Plan
