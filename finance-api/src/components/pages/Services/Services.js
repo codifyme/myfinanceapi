@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroSection from '../../HeroSection';
-import { homeObjOne} from './Data';
+// import { homeObjThree } from '../SIgnUp/Data';
+import { homeObjOne, homeObjTwo, homeObjThree} from './Data';
 
 
 function Services() {
@@ -8,6 +9,8 @@ function Services() {
     <>
       
       <HeroSection {...homeObjOne} />
+      <HeroSection {...homeObjTwo} />
+      <HeroSection {...homeObjThree} />
     </>
   );
 }

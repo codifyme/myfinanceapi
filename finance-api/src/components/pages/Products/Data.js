@@ -44,10 +44,10 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'DATA ANALYTICS',
-    headline: 'Every transaction is stored on our secure cloud database',
+    topLine: 'PRODUCTS',
+    headline: 'API & ADD ONS ',
     description:
-      'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
+      'Our modern API and powerful tools enable developers to build great financial apps – with ease.',
     buttonLabel: 'Sign Up Now',
     imgStart: 'start',
     img: 'images/svg-8.svg',

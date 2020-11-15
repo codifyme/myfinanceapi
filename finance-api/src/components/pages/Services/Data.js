@@ -1,15 +1,15 @@
 export const homeObjOne = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Exclusive Access',
-    headline: 'Unlimited Transactions with zero fees',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Services',
+    headline: 'Our Goal is to help you provide the best service that we can!',
     description:
-      'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
-    buttonLabel: 'Get Started',
-    imgStart: '',
-    img: 'images/svg-1.svg',
-    alt: 'Credit Card'
+      "Our customer satisfaction is very important for us, any comment and suggestions will be appreciated. It really heps us mantain and improve our API service. ",
+    buttonLabel: 'Start Now',
+    imgStart: 'start',
+    img: 'images/svg-7.svg',
+    alt: 'Vault'
   };
   
   export const homeObjTwo = {
