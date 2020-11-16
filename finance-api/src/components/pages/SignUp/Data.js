@@ -36,7 +36,7 @@ export const homeObjOne = {
       "Sign up and get your FREE API Key today.",
     buttonLabel: 'Start Now',
     imgStart: 'start',
-    img: 'images/Signup.gif',
+    img: 'images/signup.svg',
     alt: 'Vault'
   };
   
