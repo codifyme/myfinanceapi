@@ -6,6 +6,7 @@ import Home from './components/pages/HomePage/Home';
 import Footer from './components/pages/Footer/Footer';
 import Services from './components/pages/Services/Services';
 import Products from './components/pages/Products/Products';
+import Pricing from './components/pages/Pricing/Pricing';
 import SignUp from './components/pages/SignUp/SignUp';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
        <Route path='/' exact component={Home} />
        <Route path='/services' component={Services}/>
        <Route path='/products' component={Products}/>
+       <Route path='/pricing' component={Pricing}/>
        <Route path='/sign-up' component={SignUp}/>
      </Switch>
      <Footer />

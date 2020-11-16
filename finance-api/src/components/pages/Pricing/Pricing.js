@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from './Button';
+import { Button } from '../../Button';
 import './Pricing.css';
 import { FaFire } from 'react-icons/fa';
 import { BsXDiamondFill } from 'react-icons/bs';
@@ -22,9 +22,8 @@ function Pricing() {
                 <h3>INDIVIDUAL</h3>
                 <h4>$9.99</h4><p>per month</p>
                 <ul className='pricing__container-features'>
-                  <li>For Personal Project</li>
+                  <li>All features included with student plan</li>
                   <li>5 API Calls </li>
-                  <li>Personal use</li>
                   <li>Full Access to Core Data</li>
                   <li>Email & Chat support</li>
                 </ul>
@@ -70,6 +69,42 @@ function Pricing() {
               </div>
             </Link>
           </div>
+
+
+          {/* <div class="container px-lg-6">
+            <div class="row mx-lg-n5">
+              <div class="col py-3 px-lg-6 border bg-light">Custom column padding</div>
+                
+              <div class="col py-3 px-lg-5 border bg-light">Custom column padding</div>
+            </div>
+          </div> */}
+
+          {/* <div class="student__container px-lg-6 mt2 cloud-padding rounded card-shadow border-pale-blue ">
+            <div class="md-flex row">
+              <div class="col flex-1 border-box">
+                <div class="price-tier-text">STUDENT</div>
+                <p class="h3 bold mb0 mt6">FREE for active students</p>
+                <p class="h5 navy-2">Individual account for students</p>
+                <p class="h5 navy-2">with a.edu email address</p>
+                  <Button buttonSize='btn--wide' buttonColor='primary'>
+                  Choose Plan
+                  </Button>
+              </div>
+      
+              <div class="w-100"></div>
+              <div class="col border-box border-left border-color-pale-blue">
+                <div class="md padding-left">
+                  <div class="flex-center" mt1></div>
+                  <div class="flex-center" mt1>Limited Core Data Access</div>
+                  <div class="flex-center" mt1>For Personal Project</div>
+                  <div class="flex-center" mt1>Unlimited Data Exchange</div>
+
+                </div>
+              </div>
+            </div>
+          </div> */}
+
+
         </div>
       </div>
     </IconContext.Provider>

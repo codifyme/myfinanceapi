@@ -8,7 +8,7 @@ export const homeObjOne = {
       "Our customer satisfaction is very important for us, any comment and suggestions will be appreciated. It really heps us mantain and improve our API service. ",
     buttonLabel: 'Start Now',
     imgStart: 'start',
-    img: 'images/svg-7.svg',
+    img: 'images/businessa.gif',
     alt: 'Vault'
   };
   
@@ -22,7 +22,7 @@ export const homeObjOne = {
       'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
     buttonLabel: 'Learn More',
     imgStart: '',
-    img: 'images/svg-5.svg',
+    img: 'images/maintenance.svg',
     alt: 'Vault'
   };
   
@@ -36,7 +36,7 @@ export const homeObjOne = {
       "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
     buttonLabel: 'Start Now',
     imgStart: 'start',
-    img: 'images/svg-7.svg',
+    img: 'images/profiledata.svg',
     alt: 'Vault'
   };
   

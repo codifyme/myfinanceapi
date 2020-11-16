@@ -30,13 +30,13 @@ export const homeObjOne = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'EASY SETUP',
-    headline: 'Super fast and simple onboarding process',
+    topLine: 'Super Fast',
+    headline: 'Fast accurate and developer friendly',
     description:
-      "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
+      "We provide one of the most accurate data available on the market. Our API has over 50 endpoints and we are still growing by adding new endpoint",
     buttonLabel: 'Start Now',
     imgStart: 'start',
-    img: 'images/svg-7.svg',
+    img: 'images/fast.png',
     alt: 'Vault'
   };
   
@@ -44,12 +44,12 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'PRODUCTS',
-    headline: 'API & ADD ONS ',
+    topLine: 'Core Data',
+    headline: 'To power a core set of financial data',
     description:
-      'Our modern API and powerful tools enable developers to build great financial apps – with ease.',
+      'We have the most powerful tools that enable developers to build great financial apps using scalable and modern APIs, same as Real-time and historical pricing are necessary to power your modern application.',
     buttonLabel: 'Sign Up Now',
     imgStart: 'start',
-    img: 'images/svg-8.svg',
+    img: 'images/marketing.gif',
     alt: 'Vault'
   };
