@@ -8,7 +8,7 @@ export const homeObjOne = {
       "Our customer satisfaction is very important for us, any comment and suggestions will be appreciated. It really heps us mantain and improve our API service. ",
     buttonLabel: 'Start Now',
     imgStart: 'start',
-    img: 'images/businessa.gif',
+    img: 'images/finance.gif',
     alt: 'Vault'
   };
   

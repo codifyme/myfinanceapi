@@ -7,7 +7,7 @@ export const homeObjOne ={
     description:'Build and Explore our Financial API data, we are the largest finance database in the country ',
     buttonLabel:'Get Started',
     imgStart:'',
-    img:'images/finance.gif',
+    img:'images/professionallook.svg',
     alt:"finance"
 };
 export const homeObjTwo = {
@@ -27,9 +27,9 @@ export const homeObjTwo = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Back in the day....',
-    headline: 'History of prices',
+    headline: 'History of prices were a little different',
     description:
-      "We can provide historical data that goes up to 40 years back in history. Multiple exchanges, financial statements and many more. Our financial statements is updated in real time, that means every API requested is up to date!",
+      "Today we can provide historical data that goes up to 40 years back in history. Multiple exchanges, financial statements and many more. Our financial statements is updated in real time, that means every API requested is up to date!",
     buttonLabel: 'Start Now',
     imgStart: 'start',
     img: 'images/backintheday.svg',
