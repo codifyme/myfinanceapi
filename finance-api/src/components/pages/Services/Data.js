@@ -5,7 +5,7 @@ export const homeObjOne = {
     topLine: 'Services',
     headline: 'Our Goal is to help you provide the best service that we can!',
     description:
-      "Our customer satisfaction is very important for us, any comment and suggestions will be appreciated. It really heps us mantain and improve our API service. ",
+      "Our customer satisfaction is our priority, any comment and suggestions will be appreciated. It really heps us mantain and improve our API service. ",
     buttonLabel: 'Start Now',
     imgStart: 'start',
     img: 'images/finance.gif',
@@ -17,7 +17,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: '100% SECURE',
-    headline: 'Stay protected 24/7 anywhere anytime',
+    headline: 'Stay protected 24hr/360 Days anywhere anytime',
     description:
       'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
     buttonLabel: 'Learn More',

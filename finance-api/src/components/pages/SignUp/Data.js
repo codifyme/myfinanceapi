@@ -33,7 +33,7 @@ export const homeObjOne = {
     topLine: 'SIGN UP',
     headline: 'API KEY here!',
     description:
-      "Sign up and get your FREE API Key today.",
+      "Don't have an account?",
     buttonLabel: 'Start Now',
     imgStart: 'start',
     img: 'images/signup.svg',
