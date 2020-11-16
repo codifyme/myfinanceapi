@@ -9,6 +9,7 @@ import Products from './components/pages/Products/Products';
 import Pricing from './components/pages/Pricing/Pricing';
 import SignUp from './components/pages/SignUp/SignUp';
 
+
 function App() {
   return (
     <Router>
