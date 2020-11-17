@@ -70,7 +70,6 @@ function Pricing() {
             </Link>
           </div>
 
-
           {/* <div class="container px-lg-6">
             <div class="row mx-lg-n5">
               <div class="col py-3 px-lg-6 border bg-light">Custom column padding</div>
@@ -103,7 +102,6 @@ function Pricing() {
               </div>
             </div>
           </div> */}
-
 
         </div>
       </div>
