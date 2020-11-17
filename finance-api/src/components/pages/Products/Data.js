@@ -31,9 +31,9 @@ export const homeObjOne = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Super Fast',
-    headline: 'Fast accurate and developer friendly',
+    headline: 'Fast, accurate and developer friendly',
     description:
-      "We provide one of the most accurate data available on the market. Our API has over 50 endpoints and we are still growing by adding new endpoint",
+      "We provide the most accurate data available on the market. Our API has over 50 endpoints and we are still growing.",
     buttonLabel: 'Start Now',
     imgStart: 'start',
     img: 'images/fast.png',
@@ -47,7 +47,7 @@ export const homeObjOne = {
     topLine: 'Core Data',
     headline: 'To power a core set of financial data',
     description:
-      'We have the most powerful tools that enable developers to build great financial apps using scalable and modern APIs, same as Real-time and historical pricing are necessary to power your modern application.',
+      'We have the most powerful tools that enable developers to build great financial apps using scalable and modern APIs, such as Real-time and historical pricing that are necessary to power your application.',
     buttonLabel: 'Sign Up Now',
     imgStart: 'start',
     img: 'images/marketing.gif',

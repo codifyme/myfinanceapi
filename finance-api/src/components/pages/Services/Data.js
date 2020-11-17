@@ -17,9 +17,9 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: '100% SECURE',
-    headline: 'Stay protected 24hr/360 Days anywhere anytime',
+    headline: 'Stay protected anywhere anytime',
     description:
-      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
+      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime.',
     buttonLabel: 'Learn More',
     imgStart: '',
     img: 'images/maintenance.svg',
