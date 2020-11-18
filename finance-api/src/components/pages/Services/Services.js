@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroSection from '../../HeroSection';
-// import { homeObjThree } from '../SIgnUp/Data';
+import ScrollToTop from '../SignIn/ScrollToTop';
 import { homeObjOne, homeObjTwo, homeObjThree} from './Data';
 
 function Services() {
@@ -10,6 +10,7 @@ function Services() {
       <HeroSection {...homeObjOne} />
       <HeroSection {...homeObjTwo} />
       <HeroSection {...homeObjThree} />
+      <ScrollToTop/>
     </>
   );
 }
