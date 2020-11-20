@@ -9,6 +9,7 @@ import Products from './components/pages/Products/Products';
 import Pricing from './components/pages/Pricing/Pricing';
 import SignUp from './components/pages/SignUp/SignUp';
 import SigninPage from './components/pages/SignIn/SignIn';
+import Register from'./components/pages/Register/Register';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
        <Route path='/products' component={Products}/>
        <Route path='/pricing' component={Pricing}/>
        <Route path='/signin' component={SigninPage}/>
+       <Route path='/register' component={Register}/>
 
        <Route path='/sign-up' component={SignUp}/>
      </Switch>

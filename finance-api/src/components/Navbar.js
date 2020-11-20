@@ -7,7 +7,6 @@ import './Navbar.css';
 import {IconContext} from 'react-icons/lib';
 
 
-
 function Navbar() {
     const[click, setClick]=useState(false);
     const [button, setButton]=useState(true);
@@ -69,6 +68,17 @@ function Navbar() {
                         </li>
                         <li className="nav-btn">
                             {button ? (
+                                <Link to='/register' className="btn-link">
+                                    <Button buttonStyle='btn--outline'>REGISTER</Button>
+                                </Link>
+                            ):(
+                                <Link to='/register' className="btn-link" onClick={closeMobileMenu}>
+                                    <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>REGISTER</Button>
+                                </Link>
+                            )}
+                        </li>
+                        {/* <li className="nav-btn">
+                            {button ? (
                                 <Link to='/sign-up' className="btn-link">
                                     <Button buttonStyle='btn--outline'>SIGN UP</Button>
                                 </Link>
@@ -77,7 +87,7 @@ function Navbar() {
                                     <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>SIGN UP</Button>
                                 </Link>
                             )}
-                        </li>
+                        </li> */}
                    </ul>
                </div>
            </div>
