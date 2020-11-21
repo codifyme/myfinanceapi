@@ -6,7 +6,7 @@ const Register = () => {
         <>
         <Container>
             <FormWrap>
-                <Icon to="/">Sign In</Icon>
+                <Icon to="/">Don't have an account</Icon>
                 <FormContent>
                     <Form action="#">
                         <FormH1> Register</FormH1>
@@ -28,7 +28,7 @@ const Register = () => {
 
 
                         <FormButton type='signup'>Sign Up</FormButton>
-                        <Text>Forgot password</Text>
+                        {/* <Text>Forgot password</Text> */}
                     </Form>
 
                 </FormContent>

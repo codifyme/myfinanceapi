@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroSection from '../../HeroSection';
 import ScrollToTop from '../SignIn/ScrollToTop';
-import { homeObjFour, homeObjThree } from './Data';
+import { homeObjOne, homeObjFour, homeObjThree } from './Data';
 
 
 function Products() {
@@ -9,6 +9,7 @@ function Products() {
     <>
       <HeroSection {...homeObjThree} />
       <HeroSection {...homeObjFour} />
+      <HeroSection {...homeObjOne} />
       <ScrollToTop/>
     </>
   );

@@ -3,9 +3,9 @@ export const homeObjOne = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'VIEW OUR PRODUCTS',
-    headline: 'Shop through our catalog of products',
+    headline: 'Shop through our catalog of prices',
     description:
-      'We provide worldwide shipping to all countries. If there are any issues, just issue a refund and we will process your request',
+      'We provide the best prices in the country. We can help find the right plan for you',
     buttonLabel: 'Shop Now',
     imgStart: '',
     img: 'images/svg-4.svg',

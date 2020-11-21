@@ -29,12 +29,13 @@ export const FormWrap=styled.div`
     }
 `;
  export const Icon=styled(Link)` 
-    margin-left:32px;
-    margin-top:32px;
+    margin-left:40px;
+    margin-top:40px;
+    /* margin-bottom:5px; */
     text-decoration:none;
     color:#fff;
-    font-weight:700;
-    font-size:32px;
+    font-weight:200;
+    font-size:25px;
 
     @media screen and (max-width:480px){
         margin-left:16px;
@@ -43,8 +44,9 @@ export const FormWrap=styled.div`
  `;
 
  export const FormContent = styled.div` 
-    height:100%;
+    height:70%;
     display:flex;
+    
     flex-direction:column;
     justify-content:center;
 
@@ -61,7 +63,7 @@ export const FormWrap=styled.div`
     z-index:1;
     display:grid;
     margin:0 auto;
-    padding:80px 32px;
+    padding:70px 32px;
     border-radius:4px;
     box-shadow:0 1px 3px rgba(0,0,0,0.9);
 
