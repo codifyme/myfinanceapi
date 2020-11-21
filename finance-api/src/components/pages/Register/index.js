@@ -1,15 +1,15 @@
 import React from 'react';
-import {Container, FormWrap, Icon, FormContent, Form, FormH1, FormLabel,FormInput, Text, FormButton} from './RegisterElements';
+import {Container, FormWrap, Icon, FormContent, Form, FormH1, FormLabel,FormInput, FormButton} from './RegisterElements';
 
 const Register = () => {
     return (
         <>
         <Container>
             <FormWrap>
-                <Icon to="/">Don't have an account</Icon>
+                <Icon to="/"></Icon>
                 <FormContent>
                     <Form action="#">
-                        <FormH1> Register</FormH1>
+                        <FormH1> Account Registration</FormH1>
                         <FormLabel htmlFor='for'>First Name</FormLabel>
                         <FormInput type='firstname' required/>
 
@@ -27,7 +27,7 @@ const Register = () => {
 
 
 
-                        <FormButton type='signup'>Sign Up</FormButton>
+                        <FormButton type='signup'>Register</FormButton>
                         {/* <Text>Forgot password</Text> */}
                     </Form>
 

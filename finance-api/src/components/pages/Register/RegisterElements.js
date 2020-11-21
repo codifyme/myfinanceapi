@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 export const Container = styled.div`
     min-height:692px;
-    position:fixed;
+    /* position:fixed; */
     bottom:0;
     left:0;
     right:0;
@@ -19,7 +19,7 @@ export const Container = styled.div`
 
 export const FormWrap=styled.div`
     height:100%;
-    display:flex;
+    /* display:flex; */
     flex-direction:column;
     justify-content:center;
 
@@ -31,7 +31,6 @@ export const FormWrap=styled.div`
  export const Icon=styled(Link)` 
     margin-left:40px;
     margin-top:40px;
-    /* margin-bottom:5px; */
     text-decoration:none;
     color:#fff;
     font-weight:200;
@@ -55,7 +54,7 @@ export const FormWrap=styled.div`
     }
  `;
 
- export const Form=styled.form`
+ export const Form = styled.form`
     background:#010101;
     max-width:400px;
     height:auto;
