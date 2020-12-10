@@ -24,7 +24,7 @@ export const FormWrap=styled.div`
     justify-content:center;
 
     @media screen and (max-width:400px){
-        height:80%;
+        height:100%;
 
     }
 `;
@@ -102,6 +102,43 @@ export const FormButton=styled.button`
 export const Text=styled.span`
     text-align:center;
     margin-top:24px;
-    color:#fff;
-    font-size:14px;
+    color:yellow;
+    font-size:16px;
+    font-weight:600;
+    margin-bottom:24px;
 `;
+export const TextPass=styled.div`
+    text-align:center;
+    margin-top:24px;
+    /* margin-bottom:5px; */
+    color:lightgreen;
+    font-size:14px;
+    font-weight:500;
+    vertical-align:middle;
+`;
+// export const TextA=styled.a`
+//     text-align:center;
+//     margin-top:14px;
+//     color:orange;
+//     font-size:14px;
+//     align-items:center;
+//     font-weight:700;
+//     margin-bottom:14px;
+// `;
+
+
+// export const TextReg=styled(Link)` 
+// /* margin-left:24px; */
+// margin-top:24px;
+// text-decoration:none;
+// color:lightgreen;
+// /* font-weight:700; */
+// /* font-size:32px; */
+// flex:auto;
+
+// @media screen and (max-width:400px){
+//     margin-left:16px;
+//     margin-top:8px;
+//     align-items:center;
+// }
+// `;

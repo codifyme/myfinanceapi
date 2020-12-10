@@ -1,18 +1,39 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
-import {MdFingerprint} from 'react-icons/md';
+// import {MdFingerprint} from 'react-icons/md';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {Button} from './Button';
 import './Navbar.css';
 import {IconContext} from 'react-icons/lib';
+import Dropdown from './Dropdown';
 
 
 function Navbar() {
     const[click, setClick]=useState(false);
-    const [button, setButton]=useState(true);
+    const[dropdown, setDropdown]=useState(false);
+    const[button, setButton]=useState(true);
 
     const handleClick = ()=>setClick(!click);
     const closeMobileMenu =()=>setClick(false);
+
+    const onMouseEnter=()=>{
+        if(window.innerWidth<960){
+            setDropdown(false);
+
+        } else{
+            setDropdown(true);
+        }
+    };
+    const onMouseLeave=()=>{
+        if(window.innerWidth<960){
+            setDropdown(false);
+
+        } else{
+            setDropdown(false);
+        }
+    };
+
+
 
     const showButton=()=>{
         if(window.innerWidth<=960){
@@ -34,10 +55,12 @@ function Navbar() {
            <div  className='navbar'>
                <div className='navbar-container container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        <MdFingerprint className='navbar-icon' />
-                        Ziggurat
+                        {/* <MdFingerprint className='navbar-icon' /> Bluehat */}
+                        {/* <i class="fal fa-user-secret"> LarcoMar</i> */}
+                        <i class="fab fa-redhat">WhiteHat</i>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
+                    {/* <i className={click ? 'fas fa-times':'fas fa-bars'}/> */}
                         {click ? <FaTimes/>:<FaBars/>}
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
@@ -46,11 +69,21 @@ function Navbar() {
                             Home 
                             </Link>
                         </li>
+                        <li className='nav-item'
+                        onMouseEnter={onMouseEnter}
+                        onMouseLeave={onMouseLeave}
+                        >
+                            <Link to='/Docs' className='nav-links' onClick={closeMobileMenu}>
+                                Docs<i className='fas fa-caret-down'/>
+                            </Link>
+                            {dropdown && <Dropdown/>}
+                        </li>
                         <li className='nav-item'>
                             <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
                             Services
                             </Link>
                         </li>
+
                         <li className='nav-item'>
                             <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
                             Products
@@ -68,7 +101,7 @@ function Navbar() {
                         </li>
                         <li className="nav-btn">
                             {button ? (
-                                <Link to='/register' className="btn-link">
+                                <Link to='/register' className="nav-links-mobile">
                                     <Button buttonStyle='btn--outline'>REGISTER</Button>
                                 </Link>
                             ):(
