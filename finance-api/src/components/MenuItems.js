@@ -1,12 +1,12 @@
 export const MenuItems=[
     {
-        title:'API Docs',
-        path:'/Intro',
+        title:'API Documentation',
+        path:'/A quick intro to building whitehat',
         cName:'dropdown-link'
     },
     {
         title:'API Reference',
-        path:'/API Versioning',
+        path:'/Endpoint and Schema Overview',
         cName:'dropdown-link'
     },
     {
