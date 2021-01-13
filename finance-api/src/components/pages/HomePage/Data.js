@@ -4,7 +4,7 @@ export const homeObjOne ={
     lightTextDesc:true,
     topLine:'API Data for everyone',
     headline:'Financial data for every need',
-    description:'Build and Explore our Financial API data - We are the largest finance database in the country ',
+    description:'Build and Explore our Financial API data - We are a startup finance database in the country ',
     buttonLabel:'Get Started',
     imgStart:'',
     img:'images/professionallook.svg',
