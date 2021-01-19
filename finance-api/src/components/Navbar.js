@@ -49,6 +49,7 @@ function Navbar() {
 
     window.addEventListener('resize', showButton);
 
+    
     return (
         <>
         <IconContext.Provider value={{color:'#fff'}}>
@@ -68,6 +69,7 @@ function Navbar() {
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                             Home 
                             </Link>
+
                         </li>
                         <li className='nav-item'
                         onMouseEnter={onMouseEnter}

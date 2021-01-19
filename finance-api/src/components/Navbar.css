@@ -137,12 +137,10 @@
       font-size: 1.8rem;
       cursor: pointer;
     }
-  
     .fa-times {
       color: #fff;
       font-size: 2rem;
     }
-  
     .nav-btn {
       display: flex;
       justify-content: center;
