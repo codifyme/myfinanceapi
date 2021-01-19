@@ -1,7 +1,8 @@
 export const MenuItems=[
     {
         title:'API Documentation',
-        path:'/A quick intro to building whitehat',
+        path:'/Data.js',
+        // path:'/A quick intro to building whitehat',
         cName:'dropdown-link'
     },
     {
