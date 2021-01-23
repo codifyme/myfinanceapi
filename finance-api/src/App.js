@@ -9,7 +9,8 @@ import Products from './components/pages/Products/Products';
 import Pricing from './components/pages/Pricing/Pricing';
 import SignUp from './components/pages/SignUp/SignUp';
 import SigninPage from './components/pages/SignIn/SignIn';
-import Register from'./components/pages/Register/Register';
+import Register from './components/pages/Register/Register';
+// import Docs from './components/pages/Docs'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
      <Switch>
        <Route path='/' exact component={Home} />
        <Route path='/services' component={Services}/>
+       {/* <Route path='/docs' component={Docs}/> */}
        <Route path='/products' component={Products}/>
        <Route path='/pricing' component={Pricing}/>
        <Route path='/signin' component={SigninPage}/>

@@ -32,9 +32,6 @@ function Navbar() {
             setDropdown(false);
         }
     };
-
-
-
     const showButton=()=>{
         if(window.innerWidth<=960){
             setButton(false)
